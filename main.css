@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.50;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.button {
+    background-color: black;
+   opacity:0.60;
+  order: none;
+    color: white;
+    padding: 101px 95px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top:300px;
+    left:445px;
+}
+
